@@ -26,7 +26,7 @@ public partial class Player : MonoBehaviour
     float     spinTimeOnce; // 1‰ñ‚Ì‰ñ“]UŒ‚‚É‚©‚©‚éŠÔ
     public ScriptablePlayer GetPlayerData() { return data; }
     public int GetPlayerNumber() { return playerNumber; }
-
+    public float GetStamina() { return stamina; }
 
     //ˆ—XV€–Ú
     Vector2   inputValue;   // XY‚Ì“ü—Í—Ê
